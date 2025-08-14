@@ -25,6 +25,7 @@ namespace WebApplicationProductAPI.Controllers
         }
 
         [HttpGet]
+        //[Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> GetAll()
         {
             logger.LogInformation($"Get all categories action method invoked");
@@ -34,7 +35,7 @@ namespace WebApplicationProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        //[Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> GetCategory(int id)
         {
             var category = await categoryRepository.GetCategoryAsync(id);
@@ -70,7 +71,7 @@ namespace WebApplicationProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        //[Authorize(Roles = "Writer, Reader")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
             var category = await categoryRepository.DeleteCategoryAsync(id);

@@ -21,7 +21,7 @@ namespace WebApplicationProductAPI.Repositories.CategoryRepo
 
         public async Task<CategoryDomain?> GetCategoryAsync(int id)
         {
-            return await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == id);
+            return await dbContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
         }
 
         public async Task<CategoryDomain> AddPostAsync(CategoryDomain category)
@@ -33,7 +33,7 @@ namespace WebApplicationProductAPI.Repositories.CategoryRepo
 
         public async Task<CategoryDomain?> UpdateCategoryAsync(int id, CategoryUpdateDto dto)
         {
-            var existingCategory = await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == id);
+            var existingCategory = await dbContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
             if (existingCategory == null)
                 return null;
 
@@ -48,7 +48,7 @@ namespace WebApplicationProductAPI.Repositories.CategoryRepo
 
         public async Task<CategoryDomain?> DeleteCategoryAsync(int id)
         {
-            var existingCategory = await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == id);
+            var existingCategory = await dbContext.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
             if (existingCategory == null)
                 return null;
 

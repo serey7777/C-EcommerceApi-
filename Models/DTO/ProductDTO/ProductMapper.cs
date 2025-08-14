@@ -19,7 +19,7 @@ namespace WebApplicationProductAPI.Models.DTO.ProductDTO
 
                 Category = product.Category == null ? null : new CategoryDto
                 {
-                    Id = product.Category.Id,
+                    Id = product.Category.CategoryId,
                     Name = product.Category.Name,
                     Description = product.Category.Description,
                     CreatedDate = product.Category.CreatedDate,
@@ -27,7 +27,7 @@ namespace WebApplicationProductAPI.Models.DTO.ProductDTO
                 },
                 Supplier = product.Supplier == null ? null : new SupplierDto
                 {
-                    Id = product.Supplier.Id,
+                    Id = product.Supplier.SupplierId,
                     Name = product.Supplier.Name,
                     ContactEmail = product.Supplier.ContactEmail,
                     PhoneNumber = product.Supplier.PhoneNumber,

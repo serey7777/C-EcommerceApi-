@@ -14,6 +14,7 @@ namespace WebApplicationProductAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     
     public class ProductController : ControllerBase
     {
@@ -32,6 +33,7 @@ namespace WebApplicationProductAPI.Controllers
         //Get : /api/product?filterOn=Name&filterQuery=Price
 
       // Controller with correct manual mapping
+            //[Authorize(Roles ="Writer, Reader")]
             [HttpGet]
             public async Task<IActionResult> GetAllProduct([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
         {
@@ -44,23 +46,26 @@ namespace WebApplicationProductAPI.Controllers
                 // ✅ Manual mapping matching your AllProductDto structure
                 var response = products.Select(p => new AllProductDto
                 {
-                    Id = p.Id,
+                    Id = p.ProductId,
                     Name = p.Name,
                     Price = p.Price,
                     Qty = p.Qty,
                     Description = p.Description,
                     ImageId = p.ImageId ?? 0,
-                    ImagePath = p.Image?.FilePath, // Assuming ImageDomain has Url property
-                                                   // Map navigation properties to DTOs
+                    ImagePath = p.Images != null
+    ? p.Images.Select(img => img.FilePath).ToList()
+    : new List<string>(),
+                    // Assuming ImageDomain has Url property
+                    // Map navigation properties to DTOs
                     Category = p.Category != null ? new CategoryDto
                     {
-                        Id = p.Category.Id,
+                        Id = p.Category.CategoryId,
                         Name = p.Category.Name,
                         // Add other CategoryDto properties as needed
                     } : null,
                     Supplier = p.Supplier != null ? new SupplierDto
                     {
-                        Id = p.Supplier.Id,
+                        Id = p.Supplier.SupplierId,
                         Name = p.Supplier.Name,
                         // Add other SupplierDto properties as needed
                     } : null
@@ -77,6 +82,7 @@ namespace WebApplicationProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        //[Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> GetProductById(int id)
         {
             var product = await productRepository.GetByIdAsync(id);
@@ -85,34 +91,31 @@ namespace WebApplicationProductAPI.Controllers
                 return NotFound();
             }
 
-            // ✅ Manual mapping for single product (can use same AllProductDto or create ProductDto)
-            var response = new AllProductDto
+            var response = new ProductDto
             {
-                Id = product.Id,
+                Id = product.ProductId,
                 Name = product.Name,
                 Price = product.Price,
                 Qty = product.Qty,
                 Description = product.Description,
-                ImageId = product.ImageId ?? 0,
-                ImagePath = product.Image?.FilePath,
+                CategoryId = product.CategoryId,
+                SupplierId = product.SupplierId,
                 Category = product.Category != null ? new CategoryDto
                 {
-                    Id = product.Category.Id,
-                    Name = product.Category.Name,
-                    Description = product.Category.Description,
-                    CreatedDate = product.Category.CreatedDate,
-                    UpdatedDate = product.Category.UpdatedDate
+                    Id = product.Category.CategoryId,
+                    Name = product.Category.Name
                 } : null,
                 Supplier = product.Supplier != null ? new SupplierDto
                 {
-                    Id = product.Supplier.Id,
-                    Name = product.Supplier.Name,
-                    ContactEmail = product.Supplier.ContactEmail,
-                    PhoneNumber = product.Supplier.PhoneNumber,
-                    CreatedDate = product.Supplier.CreatedDate,
-                    UpdatedDate = product.Supplier.UpdatedDate
-                } : null
+                    Id = product.Supplier.SupplierId,
+                    Name = product.Supplier.Name
+                } : null,
+                ImageId = product.Images?.FirstOrDefault()?.Id,
+                Images = product.Images != null ? product.Images.Select(img => img.FilePath).ToList() : new List<string>(),
+                ImagePath = product.Images != null ? product.Images.Select(img => img.FilePath).ToList() : new List<string>()
             };
+
+
 
             return Ok(response);
         }
@@ -123,16 +126,16 @@ namespace WebApplicationProductAPI.Controllers
         public async Task<IActionResult> CreateProduct([FromBody] AddProductDto addProductDto)
         {
             // Validate CategoryId and SupplierId
-            var isCategoryValid = await productRepository.CategoryExistsAsync(addProductDto.category_id);
-            var isSupplierValid = await productRepository.SupplierExistsAsync(addProductDto.supplier_id);
+            var isCategoryValid = await productRepository.CategoryExistsAsync(addProductDto.CategoryId);
+            var isSupplierValid = await productRepository.SupplierExistsAsync(addProductDto.SupplierId);
 
             if (!isCategoryValid)
             {
-                return BadRequest($"CategoryId {addProductDto.category_id} does not exist.");
+                return BadRequest($"CategoryId {addProductDto.CategoryId} does not exist.");
             }
             if (!isSupplierValid)
             {
-                return BadRequest($"SupplierId {addProductDto.supplier_id} does not exist.");
+                return BadRequest($"SupplierId {addProductDto.SupplierId} does not exist.");
             }
 
             // ✅ Validate ImageId if provided
@@ -151,8 +154,8 @@ namespace WebApplicationProductAPI.Controllers
                 Description = addProductDto.Description,
                 Price = addProductDto.Price ?? 0, // ✅ Handle nullable decimal
                 Qty = addProductDto.Qty ?? 0,     // ✅ Handle nullable int
-                category_id = addProductDto.category_id,
-                supplier_id = addProductDto.supplier_id,
+                CategoryId = addProductDto.CategoryId,
+                SupplierId = addProductDto.SupplierId,
                 ImageId = addProductDto.ImageId,  // ✅ Add ImageId (nullable is fine)
                 CreatedDate = DateTime.UtcNow
             };
@@ -161,13 +164,13 @@ namespace WebApplicationProductAPI.Controllers
 
             var responseDto = new AddProductDto
             {
-                Id = addedProduct.Id,
+                Id = addedProduct.ProductId,
                 Name = addedProduct.Name,
                 Description = addedProduct.Description,
                 Price = addedProduct.Price,
                 Qty = addedProduct.Qty,
-                category_id = addedProduct.category_id,
-                supplier_id = addedProduct.supplier_id,
+                CategoryId = addedProduct.CategoryId,
+                SupplierId = addedProduct.SupplierId,
                 ImageId = addedProduct.ImageId // ✅ Include ImageId in response
             };
 
@@ -178,10 +181,10 @@ namespace WebApplicationProductAPI.Controllers
         //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductUpdateDto productDto)
         {
-            if (!await productRepository.CategoryExistsAsync(productDto.category_id))
+            if (!await productRepository.CategoryExistsAsync(productDto.CategoryId))
                 return BadRequest("Invalid Category ID.");
 
-            if (!await productRepository.SupplierExistsAsync(productDto.supplier_id))
+            if (!await productRepository.SupplierExistsAsync(productDto.SupplierId))
                 return BadRequest("Invalid Supplier ID.");
 
             var updatedProduct = await productRepository.UpdateAsync(id, productDto);
@@ -193,6 +196,7 @@ namespace WebApplicationProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteProduct(int id) 
         {
             var product = await dbContext.Products.FindAsync(id);

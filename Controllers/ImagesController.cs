@@ -21,24 +21,40 @@ namespace WebApplicationProductAPI.Controllers
         [Route("Upload")]
         public async Task<IActionResult> Upload([FromForm] ImageUpdateRequestDto request)
         {
+            // Validate the uploaded file
             ValidateFileUpdate(request);
 
-            if (ModelState.IsValid)
-            {
-                var imageDomainModel = new ImageDomain
-                {
-                    File = request.File,
-                    FileExtension = Path.GetExtension(request.File.FileName),
-                    FileSizeInBytes = request.File.Length,
-                    FileName = request.FileName,
-                    FileDescription = request.FileDescription
-                };
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
+            if (request.ProductId <= 0)
+                return BadRequest("Invalid ProductId. The product must exist.");
+
+            var imageDomainModel = new ImageDomain
+            {
+                File = request.File,
+                FileExtension = Path.GetExtension(request.File.FileName),
+                FileSizeInBytes = request.File.Length,
+                FileName = request.FileName,
+                FileDescription = request.FileDescription,
+                ProductId = request.ProductId // ✅ required for FK
+            };
+
+            try
+            {
                 await imageRepo.Upload(imageDomainModel);
                 return Ok(imageDomainModel);
             }
-            return BadRequest(ModelState);
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message); // e.g., product does not exist
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
+
         private void ValidateFileUpdate(ImageUpdateRequestDto request)
         {
             var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };

@@ -1,8 +1,11 @@
-﻿namespace WebApplicationProductAPI.Models.Domain
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebApplicationProductAPI.Models.Domain
 {
     public class SupplierDomain
     {
-        public int Id { get; set; }
+        [Key]
+        public int SupplierId { get; set; }
         public string Name { get; set; } = string.Empty;
         public string ContactEmail { get; set; } = string.Empty;
         public string PhoneNumber { get; set; } = string.Empty;

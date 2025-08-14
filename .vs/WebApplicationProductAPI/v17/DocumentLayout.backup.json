@@ -1,50 +1,170 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\API - Copy\\",
+  "WorkspaceRootPath": "E:\\ProductManagementApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\domain\\imagedomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\imagedomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\dto\\imagesdto\\imageupdaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\imagesdto\\imageupdaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\imagesdto\\imageupdaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\repositories\\productrepo\\sqlproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\productrepo\\sqlproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\domain\\imagedomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\imagedomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\repositories\\productrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\productrepo\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\repositories\\imagerepo\\sqlimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\imagerepo\\sqlimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\dto\\productdto\\allproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\allproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\repositories\\imagerepo\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\imagerepo\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\dto\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250814031506_changeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250814031506_changeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\dto\\supplierdto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\supplierdto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\dto\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\categorydto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\dto\\productdto\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\domain\\cartitemdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\cartitemdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\productdto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\productdto\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\productdto\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\api - copy\\models\\domain\\productdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\productdto\\allproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\allproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\repositories\\tokenrepo\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\tokenrepo\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\repositories\\productrepo\\sqlproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\productrepo\\sqlproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\domain\\productdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\productdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\dataconn\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:dataconn\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\domain\\categorydomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\categorydomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\dto\\logindto\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\dto\\logindto\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\repositories\\tokenrepo\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:repositories\\tokenrepo\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\domain\\orderdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\orderdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813164053_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813164053_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813164117_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationAuthDb\\20250813164117_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813163602_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813163602_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\models\\domain\\cartdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:models\\domain\\cartdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813162212_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813162212_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\ApplicationDb\\20250813162007_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationDb\\20250813162007_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\ApplicationDb\\20250813161825_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationDb\\20250813161825_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813161803_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813161803_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813161446_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationAuthDb\\20250813161446_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813161423_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813161423_newIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813161315_AppUserToIden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813161315_AppUserToIden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813160313_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationAuthDb\\20250813160313_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ProductManagementApi\\Migrations\\20250813160143_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250813160143_ApplicationProgramIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|e:\\productmanagementapi\\migrations\\20250813171915_initaildatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8253FFAA-5E80-4633-A273-FF3187B061E2}|WebApplicationProductAPI.csproj|solutionrelative:migrations\\20250813171915_initaildatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,136 +182,521 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ImageUpdateRequestDto.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs",
-              "RelativeToolTip": "Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs*",
+              "RelativeToolTip": "Models\\DTO\\ImagesDTO\\ImageUpdateRequestDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T11:31:19.465Z"
+              "WhenOpened": "2025-08-14T03:18:58.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\DTO\\CategoryDTO\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\CategoryDTO\\CategoryDto.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\DTO\\CategoryDTO\\CategoryDto.cs",
-              "RelativeToolTip": "Models\\DTO\\CategoryDTO\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImagesController.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Controllers\\ImagesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:57:16.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\DTO\\ProductDTO\\ProductDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\ProductDto.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\DTO\\ProductDTO\\ProductDto.cs",
-              "RelativeToolTip": "Models\\DTO\\ProductDTO\\ProductDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:46:46.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AllProductDto.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\DTO\\ProductDTO\\AllProductDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\AllProductDto.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\DTO\\ProductDTO\\AllProductDto.cs",
-              "RelativeToolTip": "Models\\DTO\\ProductDTO\\AllProductDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:46:02.412Z"
+              "WhenOpened": "2025-08-14T03:18:42.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SQLProductRepository.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Repositories\\ProductRepo\\SQLProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepo\\SQLProductRepository.cs",
-              "ToolTip": "E:\\API - Copy\\Repositories\\ProductRepo\\SQLProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepo\\SQLProductRepository.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGwAAAAFAAAAAAAAAA==",
+              "Title": "SQLImageRepository.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Repositories\\ImageRepo\\SQLImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ImageRepo\\SQLImageRepository.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Repositories\\ImageRepo\\SQLImageRepository.cs",
+              "RelativeToolTip": "Repositories\\ImageRepo\\SQLImageRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:29:01.79Z"
+              "WhenOpened": "2025-08-14T03:17:13.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ImageDomain.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\Domain\\ImageDomain.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\ImageDomain.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\Domain\\ImageDomain.cs",
-              "RelativeToolTip": "Models\\Domain\\ImageDomain.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Repositories\\ImageRepo\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ImageRepo\\IImageRepository.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Repositories\\ImageRepo\\IImageRepository.cs",
+              "RelativeToolTip": "Repositories\\ImageRepo\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T11:00:37.186Z",
+              "WhenOpened": "2025-08-14T03:17:12.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250814031506_changeModel.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250814031506_changeModel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250814031506_changeModel.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250814031506_changeModel.cs",
+              "RelativeToolTip": "Migrations\\20250814031506_changeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:15:06.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageDomain.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\Domain\\ImageDomain.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\ImageDomain.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\Domain\\ImageDomain.cs",
+              "RelativeToolTip": "Models\\Domain\\ImageDomain.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:17:49.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddProductDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\AddProductDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\AddProductDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\AddProductDto.cs",
+              "RelativeToolTip": "Models\\DTO\\ProductDTO\\AddProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T02:35:01.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\ProductDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\ProductDto.cs",
+              "RelativeToolTip": "Models\\DTO\\ProductDTO\\ProductDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA1wBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:55:23.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\ProductMapper.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\ProductMapper.cs",
+              "RelativeToolTip": "Models\\DTO\\ProductDTO\\ProductMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T02:35:04.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartItemDomain.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\Domain\\CartItemDomain.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\CartItemDomain.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\Domain\\CartItemDomain.cs",
+              "RelativeToolTip": "Models\\Domain\\CartItemDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:48:22.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SupplierDto.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\DTO\\SupplierDTO\\SupplierDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\SupplierDTO\\SupplierDto.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\DTO\\SupplierDTO\\SupplierDto.cs",
-              "RelativeToolTip": "Models\\DTO\\SupplierDTO\\SupplierDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\CartItemDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\CartItemDto.cs",
+              "RelativeToolTip": "Models\\DTO\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:57:29.213Z"
+              "WhenOpened": "2025-08-14T01:54:50.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "E:\\API - Copy\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDMAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\CartDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\CartDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\CartDto.cs",
+              "RelativeToolTip": "Models\\DTO\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:27:44.55Z"
+              "WhenOpened": "2025-08-14T01:54:26.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Repositories\\ProductRepo\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepo\\IProductRepository.cs",
-              "ToolTip": "E:\\API - Copy\\Repositories\\ProductRepo\\IProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepo\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAnwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T11:15:26.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddProductDto.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\DTO\\ProductDTO\\AddProductDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\AddProductDto.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\DTO\\ProductDTO\\AddProductDto.cs",
-              "RelativeToolTip": "Models\\DTO\\ProductDTO\\AddProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:42:09.654Z"
+              "WhenOpened": "2025-08-13T16:34:12.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductDomain.cs",
-              "DocumentMoniker": "E:\\API - Copy\\Models\\Domain\\ProductDomain.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\ProductDomain.cs",
-              "ToolTip": "E:\\API - Copy\\Models\\Domain\\ProductDomain.cs",
-              "RelativeToolTip": "Models\\Domain\\ProductDomain.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\ProductUpdateDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\ProductUpdateDto.cs",
+              "RelativeToolTip": "Models\\DTO\\ProductDTO\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:42:23.175Z"
+              "WhenOpened": "2025-08-14T02:35:12.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAowDABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:33:34.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:48:16.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Repositories\\TokenRepo\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TokenRepo\\TokenRepository.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Repositories\\TokenRepo\\TokenRepository.cs",
+              "RelativeToolTip": "Repositories\\TokenRepo\\TokenRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:18:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SQLProductRepository.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Repositories\\ProductRepo\\SQLProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepo\\SQLProductRepository.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Repositories\\ProductRepo\\SQLProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepo\\SQLProductRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T02:09:37.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AllProductDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\AllProductDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\ProductDTO\\AllProductDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\ProductDTO\\AllProductDto.cs",
+              "RelativeToolTip": "Models\\DTO\\ProductDTO\\AllProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T02:19:59.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAuwLYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:33:54.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductDomain.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\Domain\\ProductDomain.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\ProductDomain.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\Domain\\ProductDomain.cs",
+              "RelativeToolTip": "Models\\Domain\\ProductDomain.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wB4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:51:11.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\DataConn\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataConn\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\ProductManagementApi\\DataConn\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataConn\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAQwHAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:07:28.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:49:05.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryDomain.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\Domain\\CategoryDomain.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\CategoryDomain.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\Domain\\CategoryDomain.cs",
+              "RelativeToolTip": "Models\\Domain\\CategoryDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:50:43.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginResponeDto.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\DTO\\LoginDTO\\LoginResponeDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\LoginDTO\\LoginResponeDto.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\DTO\\LoginDTO\\LoginResponeDto.cs",
+              "RelativeToolTip": "Models\\DTO\\LoginDTO\\LoginResponeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:21:54.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Repositories\\TokenRepo\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TokenRepo\\ITokenRepository.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Repositories\\TokenRepo\\ITokenRepository.cs",
+              "RelativeToolTip": "Repositories\\TokenRepo\\ITokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T01:18:57.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250813171915_initailDatabase.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813171915_initailDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813171915_initailDatabase.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813171915_initailDatabase.cs",
+              "RelativeToolTip": "Migrations\\20250813171915_initailDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:19:15.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDomain.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\Domain\\OrderDomain.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\OrderDomain.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\Domain\\OrderDomain.cs",
+              "RelativeToolTip": "Models\\Domain\\OrderDomain.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:17:08.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250813164053_newIn.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813164053_newIn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813164053_newIn.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813164053_newIn.cs",
+              "RelativeToolTip": "Migrations\\20250813164053_newIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:40:53.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250813163602_newIn.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813163602_newIn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813163602_newIn.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813163602_newIn.cs",
+              "RelativeToolTip": "Migrations\\20250813163602_newIn.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:36:03.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250813164117_ApplicationProgramIdentity.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813164117_ApplicationProgramIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationAuthDb\\20250813164117_ApplicationProgramIdentity.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813164117_ApplicationProgramIdentity.cs",
+              "RelativeToolTip": "Migrations\\ApplicationAuthDb\\20250813164117_ApplicationProgramIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:41:17.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartDomain.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Models\\Domain\\CartDomain.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\CartDomain.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Models\\Domain\\CartDomain.cs",
+              "RelativeToolTip": "Models\\Domain\\CartDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:24:52.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250813162212_newIn.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813162212_newIn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813162212_newIn.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813162212_newIn.cs",
+              "RelativeToolTip": "Migrations\\20250813162212_newIn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:22:12.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250813162007_newIn.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\ApplicationDb\\20250813162007_newIn.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDb\\20250813162007_newIn.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\ApplicationDb\\20250813162007_newIn.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDb\\20250813162007_newIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:20:07.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250813161825_newIn.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\ApplicationDb\\20250813161825_newIn.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDb\\20250813161825_newIn.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\ApplicationDb\\20250813161825_newIn.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDb\\20250813161825_newIn.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:18:25.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250813161803_ApplicationProgramIdentity.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813161803_ApplicationProgramIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813161803_ApplicationProgramIdentity.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813161803_ApplicationProgramIdentity.cs",
+              "RelativeToolTip": "Migrations\\20250813161803_ApplicationProgramIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:18:03.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250813161446_ApplicationProgramIdentity.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813161446_ApplicationProgramIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationAuthDb\\20250813161446_ApplicationProgramIdentity.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813161446_ApplicationProgramIdentity.cs",
+              "RelativeToolTip": "Migrations\\ApplicationAuthDb\\20250813161446_ApplicationProgramIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:14:46.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250813161423_newIn.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813161423_newIn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813161423_newIn.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813161423_newIn.cs",
+              "RelativeToolTip": "Migrations\\20250813161423_newIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:14:23.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250813161315_AppUserToIden.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813161315_AppUserToIden.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813161315_AppUserToIden.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813161315_AppUserToIden.cs",
+              "RelativeToolTip": "Migrations\\20250813161315_AppUserToIden.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:13:16.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250813160313_ApplicationProgramIdentity.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813160313_ApplicationProgramIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationAuthDb\\20250813160313_ApplicationProgramIdentity.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\ApplicationAuthDb\\20250813160313_ApplicationProgramIdentity.cs",
+              "RelativeToolTip": "Migrations\\ApplicationAuthDb\\20250813160313_ApplicationProgramIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:03:13.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250813160143_ApplicationProgramIdentity.cs",
+              "DocumentMoniker": "E:\\ProductManagementApi\\Migrations\\20250813160143_ApplicationProgramIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250813160143_ApplicationProgramIdentity.cs",
+              "ToolTip": "E:\\ProductManagementApi\\Migrations\\20250813160143_ApplicationProgramIdentity.cs",
+              "RelativeToolTip": "Migrations\\20250813160143_ApplicationProgramIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:01:43.687Z"
             }
           ]
         }

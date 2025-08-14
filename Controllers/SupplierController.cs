@@ -40,7 +40,7 @@ namespace WebApplicationProductAPI.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> GetAll()
         {
             logger.LogInformation("GetAll() method was invoked by user: {User}", HttpContext.User.Identity?.Name);
@@ -53,7 +53,7 @@ namespace WebApplicationProductAPI.Controllers
 
 
         [HttpGet("{id}")]
-        //[Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader, Writer")]
         public async Task<IActionResult> GetSupplier(int id)
         {
             var supplier = await supplierRepository.GetSupplierAsync(id);
@@ -77,7 +77,7 @@ namespace WebApplicationProductAPI.Controllers
             return CreatedAtAction(nameof(GetSupplier), new { id = respone.Id }, respone);
         }
         [HttpPut("{id}")]
-        // [Authorize(Roles = "Writer")]  // Uncomment if you want role-based auth
+        //[Authorize(Roles = "Writer")]  // Uncomment if you want role-based auth
         public async Task<SupplierDomain> UpdateSupplierAsync(int id, SupplierUpdateDto dto)
         {
             // 1. Load existing supplier from DB
@@ -99,7 +99,7 @@ namespace WebApplicationProductAPI.Controllers
 
 
         [HttpDelete("{id}")]
-        //[Authorize(Roles = "Writer, Reader")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteSupplier(int id)
         {
             var supplier = await supplierRepository.DeleteSupplierAsync(id);

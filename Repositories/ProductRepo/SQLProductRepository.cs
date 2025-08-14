@@ -37,7 +37,7 @@ namespace WebApplicationProductAPI.Repositories.ProductRepo
                 var products = dbContext.Products
                     .Include(p => p.Category)
                     .Include(p => p.Supplier)
-                    .Include(p => p.Image)
+                    .Include(p => p.Images)
                     .AsQueryable();
 
                 _logger.LogInformation("Base query created");
@@ -66,17 +66,17 @@ namespace WebApplicationProductAPI.Repositories.ProductRepo
         //get category ID
         public async Task<bool> CategoryExistsAsync(int categoryId)
         {
-            return await dbContext.Categories.AnyAsync(c => c.Id == categoryId);
+            return await dbContext.Categories.AnyAsync(c => c.CategoryId == categoryId);
         }
         //get supplier ID
         public async Task<bool> SupplierExistsAsync(int supplierId)
         {
-            return await dbContext.Suppliers.AnyAsync(s => s.Id == supplierId);
+            return await dbContext.Suppliers.AnyAsync(s => s.SupplierId == supplierId);
         }
         //show by ID
         public async Task<ProductDomain?> GetByIdAsync(int id)
         {
-            return await dbContext.Products.Include(p => p.Category).Include(p => p.Supplier).FirstOrDefaultAsync(p => p.Id == id);
+            return await dbContext.Products.Include(p => p.Category).Include(p => p.Supplier).FirstOrDefaultAsync(p => p.ProductId == id);
         }
 
         //update by id
@@ -94,8 +94,8 @@ namespace WebApplicationProductAPI.Repositories.ProductRepo
             existingProduct.Description = productDto.Description ?? existingProduct.Description;
 
             // Update foreign keys
-            existingProduct.category_id = productDto.category_id;
-            existingProduct.supplier_id = productDto.supplier_id;
+            existingProduct.CategoryId = productDto.CategoryId;
+            existingProduct.SupplierId = productDto.SupplierId;
 
             await dbContext.SaveChangesAsync();
 

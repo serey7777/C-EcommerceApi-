@@ -11,8 +11,8 @@ namespace WebApplicationProductAPI.Repositories.ProductRepo
         Task<List<ProductDomain?>> GetAllProductAsync(string? filterOn = null, string? filterQuery = null);
         Task<ProductDomain?> GetByIdAsync(int id);
 
-        Task<bool> CategoryExistsAsync(int category_id);
-        Task<bool> SupplierExistsAsync(int supplier_id);
+        Task<bool> CategoryExistsAsync(int CategoryId);
+        Task<bool> SupplierExistsAsync(int SupplierId);
         Task<ProductDomain?> UpdateAsync(int id, ProductUpdateDto productDto);
         // ... existing methods
         Task<bool> ImageExistsAsync(int imageId);

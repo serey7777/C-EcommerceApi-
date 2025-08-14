@@ -1,14 +1,4 @@
+wwwroot\Images\532344809_1068664185417758_2228383096064561273_n.jpg.jpg
 wwwroot\Images\Angkor botle.jpg.jpg
-wwwroot\Images\Avocado milk shake.jpg.jpg
-wwwroot\Images\bicchrome5.jpg.jpg
-wwwroot\Images\Bolognese.jpg
-wwwroot\Images\Bolognese.jpg.jpg
-wwwroot\Images\bourjois grain debeauté extrait.jpg
-wwwroot\Images\bourjois grain debeauté extrait.jpg.jpg
-wwwroot\Images\bourjois grain debeauté gorgée.jpg.jpg
-wwwroot\Images\Close Up 160g.jpg.jpg
-wwwroot\Images\default-image.png
-wwwroot\Images\EM water 350.jpg.jpg
-wwwroot\Images\fm9.jpg.jpg
+wwwroot\Images\photo_2025-06-11_12-38-37.jpg.jpg
 wwwroot\Images\string.jpg
-wwwroot\Images\croisant.jpg.jpg

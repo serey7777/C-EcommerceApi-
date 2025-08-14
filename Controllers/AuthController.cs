@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using WebApplicationProductAPI.Models.DTO.LoginDTO;
 using WebApplicationProductAPI.Models.DTO.RegisterDTO;
 using WebApplicationProductAPI.Repositories.TokenRepo;
@@ -23,6 +24,7 @@ namespace WebApplicationProductAPI.Controllers
             this.userManager = userManager;
             this.tokenRepository = tokenRepository;
         }
+       
         //POST: /api/Auth/Register
         [HttpPost]
         [Route("Register")]
@@ -77,11 +79,12 @@ namespace WebApplicationProductAPI.Controllers
                         };
                         return Ok(respone);
                     }
-                    
-                   
                 }
             }
             return BadRequest("Username or Password incorrect");
         }
+
+
+
     }
 }

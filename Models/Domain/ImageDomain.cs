@@ -27,4 +27,8 @@ public class ImageDomain
     [Required]
     [MaxLength(500)]
     public string FilePath { get; set; }
+    // Foreign key to Product
+    [Required]
+    public int ProductId { get; set; } // foreign key
+    public ProductDomain Product { get; set; }
 }

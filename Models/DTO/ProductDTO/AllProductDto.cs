@@ -11,7 +11,8 @@ namespace WebApplicationProductAPI.Models.DTO.ProductDTO
         public int? Qty { get; set; }
         public string? Description { get; set; }
 
-        public string ImagePath { get; set; }
+        public List<string> ImagePath { get; set; } = new List<string>();
+
 
         // Optional navigation properties (if needed in response)
         // this show all info and data in cateory and supplier

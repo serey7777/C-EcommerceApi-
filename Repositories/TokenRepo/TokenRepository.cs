@@ -20,6 +20,9 @@ namespace WebApplicationProductAPI.Repositories.TokenRepo
             //The Claim class comes from the namespace System.Security.Claims
             //Creating new collection list will store object Claim
             var claims = new List<Claim>();
+            //Add NameIdentifier (required for GetUserAsync)
+            claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id));
+
             claims.Add(new Claim(ClaimTypes.Email, user.Email));
 
             foreach (var role in roles)

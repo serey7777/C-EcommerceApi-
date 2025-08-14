@@ -11,12 +11,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using WebApplicationProductAPI.DataConn;
+using WebApplicationProductAPI.Models.Domain;
 using WebApplicationProductAPI.Models.DTO.ProductDTO;
 using WebApplicationProductAPI.Repositories.CategoryRepo;
 using WebApplicationProductAPI.Repositories.ImageRepo;
 using WebApplicationProductAPI.Repositories.ProductRepo;
 using WebApplicationProductAPI.Repositories.SupplierRepo;
 using WebApplicationProductAPI.Repositories.TokenRepo;
+using System.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -95,9 +97,9 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Auth database
-builder.Services.AddDbContext<ApplicationAuthDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultAuthConnectionString")));
+//// Auth database
+//builder.Services.AddDbContext<ApplicationAuthDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultAuthConnectionString")));
 
 // -----------------------------
 // Dependency Injection
@@ -111,9 +113,9 @@ builder.Services.AddScoped<ICategoryRepository, SQLCategoryRepository>();
 // -----------------------------
 // Identity Configuration
 // -----------------------------
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationAuthDbContext>()
-    .AddDefaultTokenProviders();
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+//    .AddEntityFrameworkStores<ApplicationAuthDbContext>() 
+//    .AddDefaultTokenProviders();
 
 // Optional: Relax password rules during development
 builder.Services.Configure<IdentityOptions>(options =>
@@ -179,9 +181,10 @@ app.UseStaticFiles(); // this will serve /Images automatically
 
 
 TypeAdapterConfig<ProductDomain, AllProductDto>.NewConfig()
-    .Map(dest => dest.ImagePath, src => src.Image != null ? src.Image.FilePath : null)
-    .Map(dest => dest.Category, src => src.Category.Name)
-    .Map(dest => dest.Supplier, src => src.Supplier.Name);
+    .Map(dest => dest.ImagePath, src => src.Images != null ? src.Images.Select(img => img.FilePath).ToList() : new List<string>())
+    .Map(dest => dest.Category, src => src.Category != null ? src.Category.Name : null)
+    .Map(dest => dest.Supplier, src => src.Supplier != null ? src.Supplier.Name : null);
+
 
 
 // Routing + CORS

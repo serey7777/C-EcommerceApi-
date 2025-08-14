@@ -8,8 +8,8 @@
             public decimal? Price { get; set; }
             public int? Qty { get; set; }
             public string? Description { get; set; }
-            public int category_id { get; set; }
-            public int supplier_id { get; set; }
+            public int CategoryId { get; set; }
+            public int SupplierId { get; set; }
               public int? ImageId { get; set; } // Added ImageId
 
     }

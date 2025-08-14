@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\API - Copy\\WebApplicationProductAPI.csproj": {}
+    "E:\\ProductManagementApi\\WebApplicationProductAPI.csproj": {}
   },
   "projects": {
-    "E:\\API - Copy\\WebApplicationProductAPI.csproj": {
+    "E:\\ProductManagementApi\\WebApplicationProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\API - Copy\\WebApplicationProductAPI.csproj",
+        "projectUniqueName": "E:\\ProductManagementApi\\WebApplicationProductAPI.csproj",
         "projectName": "WebApplicationProductAPI",
-        "projectPath": "E:\\API - Copy\\WebApplicationProductAPI.csproj",
+        "projectPath": "E:\\ProductManagementApi\\WebApplicationProductAPI.csproj",
         "packagesPath": "C:\\Users\\Sien Serey\\.nuget\\packages\\",
-        "outputPath": "E:\\API - Copy\\obj\\",
+        "outputPath": "E:\\ProductManagementApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\Sien Serey\\Desktop\\Offline Packages",
